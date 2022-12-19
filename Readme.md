@@ -3,6 +3,5 @@
 
 ![Lab 16](https://nimbus-screenshots.s3.amazonaws.com/s/e634571b38c8923031df60fc7fc2fe3f.png)
 -->
-## Compete the "main.py"
 
-
+## Complete the "main.py"
