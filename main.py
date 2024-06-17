@@ -6,12 +6,12 @@ def main():
     # regular = 100
     # rate = 20
 
-    discount_amount = 0     # complete this statement to calcualte the discount amount
-    final_price = 0         # complete this statement to calculate the final price
+    discount_amount = int(original_price * rate / 100)     # complete this statement to calcualte the discount amount
+    final_price = int(original_price - discount_amount)         # complete this statement to calculate the final price
 
-    print(f'Regular Price: {original_price}')
-    print(f'Discount Amount: {discount_amount}')
-    print(f'Final Price: {final_price}')
+    print(f'Regular Price: {}'.format(original_price))
+    print(f'Discount Amount: {}'.format(discount_amount))
+    print(f'Final Price: {}'.format(final_price))
 
    ##################################################
    # Do not delete the return statement
