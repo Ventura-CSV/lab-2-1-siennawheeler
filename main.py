@@ -9,7 +9,7 @@ def main():
     discount_amount = int(original_price * rate / 100)     # complete this statement to calcualte the discount amount
     final_price = int(original_price - discount_amount)         # complete this statement to calculate the final price
 
-    print('Regular Price: {original_price}')
+    print('Regular Price: {}'.format(original_price))
     print('Discount Amount: {}'.format(discount_amount))
     print('Final Price: {}'.format(final_price))
 
