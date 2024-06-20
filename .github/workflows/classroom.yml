@@ -13,8 +13,8 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-    - name: T
-      id: t
+    - name: PT
+      id: pt
       uses: classroom-resources/autograding-python-grader@v1
       with:
         timeout: 10
@@ -23,6 +23,6 @@ jobs:
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
-        T_RESULTS: "${{steps.t.outputs.result}}"
+        PT_RESULTS: "${{steps.pt.outputs.result}}"
       with:
-        runners: t
+        runners: pt
